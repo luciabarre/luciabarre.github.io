@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  <!-- esc odificación--> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Cheat Sheet</title>
+</head>
+<style>
+    body{background-color: lavender;}
+    img.border{border: 200px solid black;}
+    h1{font-family: Arial, Helvetica, sans-serif;}
+    aside.right{
+        float: right;
+        margin: 0 1.5%;
+        width: 50%
+
+    }
+    aside.left{
+        float: left;
+        margin: 0 1.5%;
+        width: 50%
+
+    }
+    .square{
+        background-color: rgb(79, 62, 90);
+    }
+    
+
+</style>
+<body>
+    <section>
+    <header> HEADER: This is the header of the document</header>
+    <header>Lucía Barrenechea A01782021</header>
+    </section>  
+
+    <section style="background-color: rgb(189, 165, 244); height:80px;"><h1 style="text-align: center; font-size:60px;">HTML Cheat Sheet</h1>
+    </section>
+    <section>
+        <h2>Different Headers</h2>
+        <p>Headers are an excellent way to draw attention to important information such as titles.
+            <u>Examples:</u>
+        </p>
+        <div>
+            <h1>header 1</h1>
+            <h2>header 2</h2>
+            <h3> header 3</h3>
+            <h4> header 4</h4>
+            <h5> header 5</h5>
+            <h6> header 6</h6>
+        </div>
+    
+    </section>  
+
+    <div>   
+    <h2> a - Hyperlinks</h2>
+    <p>Sirven para hacer un link de una página a otro recurso en la web, sea otro archivo en el servidor web, u otra página web.</p>
+    <p>Por ejemplo:<a href = "https://tinyurl.com/4wnrkkzx"> El siguiente link muestra un video de como funcionan los hyperlinks  </a></p>
+    </div>
+
+    <section class="square"> 
+        <h2>Div and Span</h2>
+        "div" and "span" are used uniquely for styling purposes. They work as containers
+        "div" and "span" also work to style contained sets of content.
+        <aside class="right">
+            <h4>Div</h4>
+            <p>Div creates a block level element 
+            example: *All of the description is inside a div.</p>
+        </aside>
+        <aside>
+        <h4>Span</h4>
+        Is a inline level element
+        <span> This is in a span</span>
+        </aside>
+
+    </section>
+
+    <div>
+        <h2> Underline</h2>
+        <p>To underline you use <b>u</b></p>
+        <p>Example: You can use u to <u>underline important information</u></p>
+    </div>
+    
+    <div>
+        <h2> Bold Elements</h2>
+        <p>The "strong" element is semantically used to give strong importance to text</p>
+        <p><u>Example:</u></p>
+        <p><strong>Caution:</strong> Peligro</p>
+        <p>The "b" element, on the other hand, semantically means to stylistically offset text</p>
+        <p><u>Example:</u> </p>
+        <p>Esta receta necesita mucho <b>queso</b> y <b>requeson</b></p>
+    </div>
+
+    <div>
+    <h2> Italicize</h2>
+    <p> You can use em and i to italicize words or phrases</p>
+    <p> <b>em</b> element is used semantically to place a stressed <em>emphasis</em> on text</p>
+    <p> <b>i</b> is used to convey text in <i>alternative</i> voice</p>
+    </div>
+
+    <div>
+    <h2>Articles</h2>
+    <article> This part of the document is used only for articles o important information. To do this we use "article" </article>
+    </div>
+
+    <section>
+    <h2>Sections</h2>
+    <p>Sections are used to create hierarchy all over the web page. "section" is used to do this.</p>
+        <u>Example: </u>
+        <section> This is inside a section</section>
+    </section>
+
+    <form>
+    <h2>Strike</h2>
+    <p>Strike is used to <s>strike</s> out irrelevant information</p>
+    </form>
+
+    <div>
+    <h2>Small</h2>
+    <p>Small helps create <small>smaller</small> words in the text. Use "small"<div class=""></div>
+    <u>Example:</u> This is big, <small>This is small.</small></p>
+    </div>
+
+    <aside class="left">
+    <h2>Aside</h2>
+    <aside>This is an example to use aside. Its basically like a division but the purpose it to send it right or left.</aside>
+    </aside>
+
+    <nav>
+    <h2>Nav</h2>
+    <nav>nav works to create a navigator bar on the top. It is used to create a different block.</nav>
+    </nav>
+
+    <div>
+    <h2>Images</h2>
+    <p>Images helps us insert an image into a webpage. To do this we need the image url.
+        <u>Example:</u>
+    </p>
+    <img src="data:image/jpeg;base64,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" >
+    </div>
+
+    <div>
+    <h2>Breaks</h2>
+    <p><strong>br</strong> is a way of creating breaks in a web page</p>
+    <u>Example:</u>
+    <br>
+    <p><strong>hr</strong> is a way to create a break in the webpage with a line</p>
+    <u>Example:</u>
+    <hr>
+    </div>
+
+    <form>
+    <h2>Form</h2>
+    <p>form creates the possibility</p>
+    </form>
+
+    <form>
+
+    <h2>Tables</h2>
+    <p>To declare the columns you mus use (tc), "td" stands for table data, "tr" stands for table rows, "th" stands for table headers</p>
+    <table class="borders">
+        <tr>
+          <th>nombre   </th>
+          <th>apellido   </th> 
+          <th>matricula   </th>
+        </tr>
+        <hr>
+        <tr>
+          <td>lucia</td>
+          <td>barre</td> 
+          <td>1234</td>
+        </tr>
+        <tr>
+          <td>sofia</td>
+          <td>carre</td> 
+          <td>5678</td>
+        </tr>
+      </table>
+    </form>
+      <hr>
+
+    <section>
+    <h2> Ul: Unordered list and Ol: Ordered list</h2>
+    <p>Para crear estos dos tipos de listas es necesario utilizar "ul", "ol" y "li"</p>
+    <h4>unordered list example</h4>
+    <ul>
+        <li>hola</li>
+        <li>hola</li>
+        <li>hola</li>
+
+    </ul>
+    <h4>ordered list example</h4>
+    <ol>
+        <li>hola</li>
+        <li>hola</li>
+        <li>hola</li>
+
+    </ol>
+    </section>
+
+    <div>
+    <h2>References</h2>
+    <p>The following pages were used to gather information and examples.</p>
+    <ul>
+     <li><a href = "https://learn.shayhowe.com/html-css/getting-to-know-css/"> shayhowe</a></li>
+    <li> <a href ="https://www.w3schools.com/tags/default.asp"> w3schools </a></li>
+    </ul>
+    </div>
+
+<footer>This is a footer</footer>
+</html>
