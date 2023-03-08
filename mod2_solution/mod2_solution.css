@@ -1,14 +1,61 @@
 /*Large Devices*/
-@media (min-width:992px){
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
 
+.row{
+    width:100%;
+}
+
+.box{
+    background-color: rgb(146, 153, 151);
+    position: relative; 
+    height:150px;
+    float:left;
+    /* padding: 10px; */
+    /* margin:5px; */
+    border:solid black 1px;
+}
+ section{
+    clear:right;
+ }
+
+ .search{
+    width:100%;
+    background-color: gray;
+    margin:10px;
+ }
+
+.smallbox{
+    height:60px;
+    border:solid black 1px;
+    /* padding:10px; */
+    width:100px;
+    position: relative;
+    top:0;
+    float:right;
+}
+
+@media (min-width:992px){
+    .col-md-4 {
+        width: 32%;
+      }
 }
 
 /*Medium Devices*/
-@media (min-width:768px max-width:991px){
+@media (min-width:768px) and (max-width:991px){
+    .col-md-6 {
+        width: 48%;
+      }
 
 }
 
 /*Small Devices*/
 @media (max-width:767px){
+    .col-md-12 {
+        width: 100%;
+      }
 
 }
