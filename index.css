@@ -6,5 +6,28 @@
   }
 
 header{
-    background-color: blueviolet;
+    background-color: #251749;
+    height: 170px;
+}
+
+h1{
+    color:#FFFBEB;
+}
+
+.box{
+    background-color: #CBE4DE;
+    position: relative; 
+    height:100px;
+    /* width:100px; */
+    float:left;
+    padding-left: 10px;
+    border:solid black 1px;
+    margin-bottom:10px ;
+    margin-top: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+
 }
